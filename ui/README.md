@@ -1,6 +1,25 @@
-# DirectDrop UI
+# DirectDrop — P2P File Sharing Application
 
-This is the frontend UI for the DirectDrop P2P file sharing application. It's built with Next.js, TypeScript, and Tailwind CSS.
+DirectDrop is a fast, secure peer-to-peer file sharing application that allows users to transfer files directly between devices using an invite code system — without relying on cloud storage.
+
+It consists of a modern Next.js frontend and a Java backend that handles file streaming and peer connections.
+
+## 🚀 Overview
+
+DirectDrop enables users to share files directly between devices over a local or internet connection using a simple invite code system. Files are transferred peer-to-peer without storing them on any central server.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js (React)
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Java 17
+- Maven
 
 ## Features
 
