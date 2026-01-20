@@ -87,7 +87,9 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-blue-600 mb-2">DirectDrop</h1>
-        <p className="text-xl text-gray-600">Secure P2P File Sharing</p>
+        <p className="text-xl text-gray-600">
+          Fast, secure peer-to-peer file sharing — no cloud, no limits.
+          </p>
       </header>
       
       <div className="bg-white rounded-lg shadow-lg p-6">
