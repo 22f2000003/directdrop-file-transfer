@@ -118,6 +118,10 @@ export default function Home() {
         
         {activeTab === 'upload' ? (
           <div>
+            <h2 className="text-2xl font-semibold mb-2">Share a File Instantly</h2>
+            <p className="text-gray-500 mb-6">
+               Upload a file and generate an invite code for instant peer-to-peer sharing.
+            </p>
             <FileUpload onFileUpload={handleFileUpload} isUploading={isUploading} />
             
             {uploadedFile && !isUploading && (
